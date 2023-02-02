@@ -1,0 +1,4 @@
+- name: clang-format-lint-action
+  uses: frroossst/clang-format-lint-action@v4
+  with:
+    filePath: ./CPP_flight_computer_program/src/*
