@@ -1,4 +1,15 @@
-- name: clang-format-lint-action
-  uses: frroossst/clang-format-lint-action@v4
-  with:
-    filePath: ./CPP_flight_computer_program/src/*
+name: test-fmt
+
+on:
+  push:
+    - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+  steps:
+    - name: clang-format-lint-action
+      uses: frroossst/clang-format-lint-action@v4
+      with:
+        filePath: ./CPP_flight_computer_program/src/*
