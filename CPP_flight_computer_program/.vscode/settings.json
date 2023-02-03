@@ -1,9 +1,0 @@
-{
-    "editor.detectIndentation": false,
-    "cmake.sourceDirectory": "${workspaceFolder}/lib/Adafruit_BusIO",
-    "files.associations": {
-        "*.tpp": "cpp"
-    },
-    "editor.formatOnSave": true,
-    "clang-format.executable": "/usr/bin/clang-format-15",
-}
